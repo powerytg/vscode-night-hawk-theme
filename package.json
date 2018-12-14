@@ -1,13 +1,18 @@
 {
     "name": "night-hawk",
-    "displayName": "Night Hawk",
+    "displayName": "Night Hawk Theme",
     "description": "A dark and smooth theme optimized for long coding nights",
-    "version": "0.0.1",
+    "publisher": "powerytg",
+    "license": "SEE LICENSE IN LICENSE",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.30.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme", "dark", "smooth", "night", "hawk"
     ],
     "contributes": {
         "themes": [
@@ -17,5 +22,15 @@
                 "path": "./themes/Night Hawk Theme-color-theme.json"
             }
         ]
-    }
+    },
+    "galleryBanner": {
+        "color": "#2d3335",
+        "theme": "dark"
+    },
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/powerytg/vscode-night-hawk-theme.git"
+    },
+    "homepage": "https://github.com/powerytg/vscode-night-hawk-theme/blob/master/README.md"
 }
