@@ -38,6 +38,7 @@
 		"editorSuggestWidget.selectedBackground": "#47545a",		
 		"editorGutter.background": "#282b2e",
 		"statusBar.background": "#121212",
+		"statusBar.noFolderBackground": "#2d3335",
 		"dropdown.background": "#47545a",
 		"dropdown.listBackground": "#47545a",
 		"dropdown.border": "#000000",
