@@ -4,7 +4,7 @@
     "description": "A dark and smooth theme optimized for long coding nights",
     "publisher": "powerytg",
     "license": "SEE LICENSE IN LICENSE",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -12,7 +12,11 @@
         "Themes"
     ],
     "keywords": [
-        "theme", "dark", "smooth", "night", "hawk"
+        "theme",
+        "dark",
+        "smooth",
+        "night",
+        "hawk"
     ],
     "contributes": {
         "themes": [
