@@ -10,7 +10,7 @@
 		"sideBarSectionHeader.background": "#1b1d1e",
 		"sideBarSectionHeader.foreground": "#f99827",
 		"sideBar.border": "#121212",
-		"sideBarTitle.foreground": "#49b896",
+		"sideBarTitle.foreground": "#28df87",
 		"activityBarBadge.background": "#f99827",
 		"activityBarBadge.foreground": "#271705",
 		"activityBar.background": "#1b1d1e",
@@ -45,14 +45,9 @@
 		"input.background": "#47545a",
 		"input.border": "#000000",
 		"list.hoverBackground": "#5c7687",
+		"list.activeSelectionBackground": "#47545a"
 	},
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#eeffffff",
-				"background": "#263238ff"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -195,7 +190,6 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#37b457"
 			}
 		},
@@ -509,7 +503,7 @@
 				"text.html.markdown meta.dummy.line-break"
 			],
 			"settings": {
-				"foreground": ""
+				"foreground": "#65737E"
 			}
 		},
 		{
@@ -570,22 +564,11 @@
 			}
 		},
 		{
-			"name": "Markup - Strike",
-			"scope": [
-				"markup.strike"
-			],
-			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
-			}
-		},
-		{
 			"name": "Markdown - Blockquote",
 			"scope": [
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"background": "#65737E",
 				"foreground": "#65737E"
 			}
 		},
@@ -596,7 +579,6 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": ""
 			}
 		},
 		{
@@ -680,7 +662,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#00000050",
 				"foreground": "#65737E"
 			}
 		},
